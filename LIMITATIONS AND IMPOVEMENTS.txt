@@ -1,0 +1,68 @@
+
+Limitations:
+
+
+
+
+
+
+
+Image Resolution:
+
+The model uses a relatively simple architecture and is trained on low-resolution (28x28) images. It may struggle with more complex tasks or higher-resolution images.
+Limited Complexity:
+
+The model architecture is straightforward and may not capture intricate patterns in fashion items. More complex architectures like deep convolutional networks might yield better results.
+Overfitting Risk:
+
+With a limited amount of data, there's a risk of overfitting, especially when training for more epochs. Regularization techniques or data augmentation could be employed to mitigate this.
+Class Imbalance:
+
+The dataset might have imbalances across different classes, leading the model to be biased towards more prevalent classes.
+
+
+
+
+
+
+
+
+
+
+Potential Improvements:
+
+
+
+
+
+
+Advanced Architectures:
+
+Implementing more sophisticated architectures like ResNet, Inception, or DenseNet could improve the model's ability to capture intricate patterns and features.
+Transfer Learning:
+
+Leveraging pre-trained models on larger datasets (e.g., ImageNet) and fine-tuning them for fashion classification might improve performance.
+Data Augmentation:
+
+Applying data augmentation techniques during training, such as rotation, scaling, and flipping, can enhance the model's ability to generalize to variations in input data.
+Hyperparameter Tuning:
+
+Experimenting with different hyperparameters (learning rate, batch size, etc.) might lead to improved convergence and overall performance.
+Ensemble Learning:
+
+Combining predictions from multiple models (ensemble learning) can often lead to better generalization and robustness.
+Class Balancing:
+
+Addressing class imbalances in the dataset through oversampling, undersampling, or using class weights during training can improve the model's ability to handle all classes equally.
+Higher Resolution Images:
+
+If available, training on higher-resolution images may enable the model to capture more intricate details in fashion items.
+Explorative Data Analysis (EDA):
+
+Conducting in-depth explorative data analysis to understand class distributions, data characteristics, and potential biases can guide improvements in preprocessing and model design.
+Regularization Techniques:
+
+Applying dropout or other regularization techniques can prevent overfitting and enhance the model's generalization ability.
+Learning Rate Schedulers:
+
+Implementing learning rate schedulers can dynamically adjust the learning rate during training, potentially leading to better convergence.
